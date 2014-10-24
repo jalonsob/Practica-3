@@ -9,15 +9,8 @@ describe("Clase PlayerMissileSpec", function(){
 
 		ctx = canvas.getContext('2d');
 		expect(ctx).toBeDefined();
-		
-		oldGame = Game;
-		SpriteSheet.load (sprites,function(){});
 	
    	});
-   	
-   	afterEach(function(){
-       		Game = oldGame;
-    	});
 
    	
 	it ("draw", function(){

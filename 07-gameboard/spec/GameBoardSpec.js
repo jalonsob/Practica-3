@@ -10,14 +10,7 @@ describe("Clase GameBoardSpec", function(){
 		ctx = canvas.getContext('2d');
 		expect(ctx).toBeDefined();
 		
-		oldGame = Game;
-		SpriteSheet.load (sprites,function(){});
-	
    	});
-   	
-   	afterEach(function(){
-       		Game = oldGame;
-    	});
 
    	
    	it("add",function(){
